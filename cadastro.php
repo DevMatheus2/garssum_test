@@ -18,7 +18,7 @@
                     <div class="status">
                         <div class="log-status">
                             <div class="log-overlay">
-                                <a href="index.php"> Login</a>
+                                <a href="login.php"> Login</a>
                             </div>
                         </div>
                         <div class="cad-status">

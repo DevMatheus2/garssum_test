@@ -36,6 +36,7 @@
 
         echo '<a href="users_edit.php?ID=' . $id . '"> Editar perfil <br><br> </a>';
         echo '<a href="pratos_interface.php?ID=' . $id . '"> + Criar prato <br><br> </a>';
+        echo $_SESSION["ID_usuario"];
 
         if ($resultAdm->num_rows > 0) {
             while ($row = $resultAdm->fetch_assoc()) {

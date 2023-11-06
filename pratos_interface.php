@@ -156,7 +156,7 @@
 
     let inputHid = document.getElementById('foodArray')
     let foodArray = []
-    let inputHid = document.getElementById('qtdArray')
+    let inputHidQtd = document.getElementById('qtdArray')
     let qtdArray = []
 
     function foodOnClick(id) {
